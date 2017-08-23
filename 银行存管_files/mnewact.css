@@ -1,0 +1,249 @@
+/* 新存管上线 */
+.newcg {
+    width: 100%;
+    padding: 0.1px;
+    background: url('/resource/web/img/mactimg/mact_cunguan_bg_01.png') no-repeat;
+    background-size: 100% 100%;
+}
+.newcg p {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0;
+}
+.newcg p img {
+    width: 100%;
+}
+.newcg p:first-child {
+    margin-top: 6.853333rem;
+}
+.newcg p:nth-child(2) {
+    margin-top: 1.6rem;
+}
+.newcg p:nth-child(3) {
+    width: 100%;
+    margin-top: 1.6rem;
+}
+.newcg p:nth-child(4) {
+    margin-top: 2.933333rem;
+}
+.newcg p:nth-child(5) {
+    margin-top: 1.6rem;
+}
+.newcg p:nth-child(6) {
+    width: 70%;
+    margin-top: 0.933333rem;
+    margin-bottom: 1.44rem;
+}
+
+.mregbonbtn {
+    width: 100%;
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    text-align: center;
+    font-size: 0.48rem;
+    color: #fff;
+    background-image: linear-gradient( 90deg,#f74411, #ff7a0a);
+    background-image: -webkit-linear-gradient( 90deg,#f74411, #ff7a0a);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#f74411, endColorstr=#ff7a0a)";/*IE8+*/
+    box-shadow:0px 2px 10px -3px #f74411;
+    -webkit-box-shadow:0px 2px 10px -3px #f74411;/*webkit*/
+    -moz-box-shadow:0px 2px 10px -3px #f74411;/*firefox*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+/* 存管对接完成活动 */
+.mod-online {
+    width: 100%;
+    background-color: #4800BB;
+}
+.cg-online {
+    width: 100%;
+}
+.cg-online img,.cgol-tit img,.cgol-list img {
+    width: 100%;
+}
+.cgol-cont01{
+    width: 8.64rem;
+    margin: 0 auto;
+    margin-top: -5.28rem;
+    padding-top: 0.853333rem;
+    padding-bottom: 8.72rem;
+    border-radius: 15px;
+    box-shadow:0px 2px 10px -3px #000000;
+    -webkit-box-shadow:0px 2px 10px -3px #000000;/*webkit*/
+    -moz-box-shadow:0px 2px 10px -3px #000000;/*firefox*/
+    background-color: #f8e71d;
+    position:relative;
+    z-index: 333;
+}
+.cgol-tit {
+    width: 6.64rem;
+    margin: 0 auto;
+}
+.cgol-tit01 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0.533333rem;
+    margin-bottom: 0.346667rem;
+    text-align: right;
+    font-size: 0.48rem;
+    font-weight: 600;
+    color: #000000;
+}
+.cgol-tit01 span {
+    font-family: 黑体;
+    font-size: 0.64rem;
+    color: #f53e3e;
+}
+.cgol-list {
+    width: 95%;
+    margin: 0 auto;
+}
+.cgol-list li {
+    width: 2.533333rem;
+    height: 3.333333rem;
+    position: relative;
+}
+.cgol-list img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cgol-list02 {
+    margin: 0.266667rem auto;
+}
+.cgol-tishi p {
+    margin-top: 1.066667rem;
+    font-family: 黑体;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #000000;
+    font-weight: 500;
+}
+.cgol-tishi p span {
+    color: #f53e3e;
+}
+.cgol-ulist {
+    width: 95%;
+    padding: 0.266667rem 0;
+    margin: 0 auto;
+    margin-top: 0.666667rem;
+    background: skyblue;
+    background-size: 100% 100%;
+}
+.cgol-ulist .cgol-ulbox {
+    overflow: hidden;
+    width: 75%;
+    height: 1.466667rem;
+    margin: 0 auto;
+    position: relative;
+}
+.cgol-ulist ul {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cgol-ulist li {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0.133333rem;
+    font-size: 0.373333rem;
+    color: #fff;
+}
+.cgol-rlue01 {
+    width: 9.386667rem;
+    background: url('./银行存管_files/cunguan_online_08.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.cgol-rlue01 img {
+    width: 7.92rem;
+    margin-left: 12%;
+    padding-top: 1.866667rem;
+    padding-bottom: 0.533333rem;
+}
+.cgol-cont02,.cgol-cont03 {
+    width: 98%;
+    margin-top: 0.8rem;
+}
+.cgol-cont03 {
+    width: 98%;
+    margin-left: 2%;
+}
+.cgol-cont02 img,.cgol-cont03 img,.cgol-btn img,.cgol-rlue02 img {
+    width: 100%;
+}
+.cgol-btn {
+    width: 4.96rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+}
+.cgol-rlue02 {
+    width: 8.16rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    padding-bottom: 1.333333rem;
+}
+.mod-oldraw {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 333;
+}
+.oldraw {
+    width: 7.2rem;
+    /*height: 8.72rem;*/
+    margin: 0 auto;
+    margin-top: 45%;
+    position: relative;
+}
+.oldraw div {
+    width: 6.133333rem;
+    margin: 0 auto;
+    position: relative;
+}
+.oldraw div img,.close-drw img {
+    width: 100%;
+}
+.close-drw {
+    width: 0.32rem;
+    position: absolute;
+    top: -0.32rem;
+    right:0;
+}
+.oldraw-cont {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 0.426667rem;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+.oldraw-cont span {
+    display: block;
+    font-family: 黑体;
+}
+.oldraw-cont span:nth-child(2){
+    margin-top: 0.133333rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.64rem;
+    font-weight: 500;
+}
+.oldraw-cont span:nth-child(3){
+    font-size: 0.373333rem;
+    font-weight: 500;
+}
+
+

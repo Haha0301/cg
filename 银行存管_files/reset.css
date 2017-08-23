@@ -1,0 +1,82 @@
+/*清除外边距*/
+*{ font-family:"Microsoft YaHei",微软雅黑; }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, figure,span, /*结构元素*/
+dl, dt, dd, ul, ol, li, /*列表元素*/
+fieldset, lengend, button, input, textarea, /*表单元素*/
+th, td/*表格元素*/
+pre /*文本格式元素*/ {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color:transparent;
+}
+input[type=submit] {
+    -webkit-appearance: none;
+}
+input[type=number] {  
+    -moz-appearance:textfield;  
+}  
+input[type=number]::-webkit-inner-spin-button,  
+input[type=number]::-webkit-outer-spin-button {  
+    -webkit-appearance: none;  
+    margin: 0;  
+} 
+input { padding: 0; margin: 0; border: 0; }
+input:focus { outline:none; border: 0; }
+
+input[type="checkbox"] {
+  
+}
+/**/
+input::-webkit-input-placeholder{
+    color: #cfcfcf;
+}
+input:-moz-placeholder{
+    color:#999999;
+}
+input::-moz-placeholder{
+    color:#999999;
+}
+input:-ms-input-placeholder{
+    color:#999999;
+}
+/*清除内边距*/
+ul, ol, menu {
+    padding: 0;
+}
+
+
+/*重置列表元素*/
+ul, ol {
+    list-style: none;
+}
+
+
+/*将字体扶正*/
+address, cite, dfn, em, var , i{
+    font-style: normal;
+}
+
+
+/*清下划线*/
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color:transparent
+}    
+/*鼠标略过a标签，显示下划线*/
+a:hover {
+    /*text-decoration: underline;*/
+}
+a:focus {
+    border: 0;
+    -webkit-tap-highlight-color:transparent
+}
+
+/*清浮动*/
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+body>a {
+    display: none;
+}
