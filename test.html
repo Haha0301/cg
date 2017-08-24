@@ -1,76 +1,54 @@
-<!DOCTYPE html>
+Echo_Chien
+<!doctype html>
 <html>
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <title>记录滚动</title>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+#demo{overflow:hidden;height:180px;width:200px;background:#009900;color:#006600}
+</style>
+</head>
 
-	<style>
-    .panel{
-		width:340px;
-		padding:10px;
-		text-align: center;
-		background-color:#FF3C3C;
-		border-radius: 0 0 8px 8px;
-     }
-    h2{
-        color:#fff;
-        margin: 5px;
-    }
-	.activity{
-		width: 300px;
-		margin: 0 auto;
-		position: relative;
-		overflow: hidden;
-		height: 165px;
-		background-color: #fff;
-        border-radius: 5px;
-	}
-	.activity ul{
-		top: -15px;
-		padding: 0;
-		color: #666;
-		position: relative;
-	}
-	.activity li{
-		height: 34px;
-               padding:0;
-		font-size: 12px;
-		line-height: 34px;
-                list-style: none;
-		border-bottom: 1px dotted #d2d2d2;
-	}
-	</style>
-	</head>
-    
-    <body>
-      <div class="panel">
-        <h2>活动动态</h2>
-        <div class="activity" id="J_Activity">
-            <ul>
-                <li>user1 获得了7折优惠券</li>
-                <li>user2 获得了8折优惠券</li>
-                <li>user3 获得了7折优惠券</li>
-                <li>user4 获得了5折优惠券</li>
-                <li>user5 获得了4折优惠券</li>
-            </ul>
-        </div>
-      </div>
-    </body>
-    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
-    <script type="text/javascript" charset="utf-8">
-    $(function () {
-	    var listPanel = $('#J_Activity ul');
-	    var z = 0;//向上滚动top值
-	    function up() {//向上滚动
-	        listPanel.animate({//中奖结果
-	            'top': (z - 35) + 'px'
-	        }, 1500, 'linear', function () {
-	            listPanel.css({'top': '0px'})
-	            .find("li:first").appendTo(listPanel);
-	            up();
-	    	});
-		}
-		up();
-    });
-    </script>
+<body>
+<div id="demo" >  
+<table  align=top>  
+<tr>  
+<td id="demo1" valign="top">  
+
+<p>aaaa111110980uytu</p>  
+<p>aaaa44747427aaa</p>  
+<p>aaaaaa-890-atyyu</p>  
+<p>aaaaaaa72auytuyu</p>  
+<p>aaaaaaaaaa7a0[0t</p>  
+<p>aaaaaaaaaa72727a</p>  
+<p>aaaa111110980uytu</p>  
+<p>aaaa44747427aaa</p>  
+<p>aaaaaa-890-atyyu</p>  
+<p>aaaaaaa72auytuyu</p>  
+<p>aaaaaaaaaa7a0[0t</p>  
+<p>aaaaaaaaaa72727a</p>  
+
+ </td>  
+</tr>  
+<tr>  
+<td id=demo2 valign=top></td>  
+</tr>  
+</table>  
+
+</div>  
+<script>  
+var speed=30  
+demo2.innerHTML=demo1.innerHTML//克隆demo1为demo2  
+function Marquee(){  
+if(demo2.offsetHeight-demo.scrollTop<=0)//当滚动至demo1与demo2交界时  
+demo.scrollTop-=demo1.offsetHeight//demo跳到最顶端  
+else{  
+demo.scrollTop++  //如果是横向的 将 所有的 height top 改成 width left  
+}  
+}  
+var MyMar=setInterval(Marquee,speed)//设置定时器  
+demo.onmouseover=function() {clearInterval(MyMar)}//鼠标移上时清除定时器达到滚动停止的目的  
+demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}//鼠标移开时重设定时器  
+</script> 
+</body>
 </html>
