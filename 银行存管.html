@@ -12,7 +12,7 @@
     <script src="./银行存管_files/hm.js"></script><script type="text/javascript" src="./银行存管_files/flexible.js"></script>
     <script type="text/javascript" src="./银行存管_files/jquery-1.11.1.min.js"></script>
     <style type="text/css">
-        @keyframes rowup {
+        @-webkit-keyframes rowup {
             0% {
                 -webkit-transform: translate3d(0, 0, 0);
                 transform: translate3d(0, 0, 0);
@@ -55,7 +55,7 @@
         </div>
         <div class="cgol-ulist">
             <div class="cgol-ulbox">
-                <ul class="cgol-ulist-box">
+                <ul class="cgol-ulist-box ul1">
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;1</p><p>获得iphone7</p></li>
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;2</p><p>获得iphone7</p></li>
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;3</p><p>获得iphone7</p></li>
@@ -67,7 +67,7 @@
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;9</p><p>获得iphone7</p></li>
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;10</p><p>获得iphone7</p></li>
                 </ul>
-                <ul class="cgol-ulist-box">
+                <!-- <ul class="cgol-ulist-box">
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;11</p><p>获得iphone7</p></li>
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;12</p><p>获得iphone7</p></li>
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;13</p><p>获得iphone7</p></li>
@@ -78,7 +78,8 @@
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;18</p><p>获得iphone7</p></li>
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;19</p><p>获得iphone7</p></li>
                     <li class="tcf-flex tcf-justify-justify"><p>用户&nbsp;20</p><p>获得iphone7</p></li>
-                </ul>
+                </ul> -->
+                <div class="ul2"></div>
             </div>
         </div>
         <div class="cgol-rlue01">
@@ -125,6 +126,25 @@
     // }
     // setInterval(swiper, 500);
     //
+    // var speed = 40;
+    // $('.ul2').html() = $('.ul1').html();
+    // var box = $('.cgol-ulbox')
+    // console.log(box.height())
+    // console.log(box.scrollTop())
+    // console.log(box.scrollTop()+1)
+   
+    // function Marquee(){ 
+    //     if($('.cgol-ulbox').scrollTop()>=$('.ul1').height()){
+    //       $('.cgol-ulbox').scrollTop()=0; 
+    //     }
+    //     else{ 
+    //       $('.cgol-ulbox').scrollTop()=$('.cgol-ulbox').scrollTop()+1;
+    //     } 
+    // }
+    // setInterval(Marquee,speed) 
+  // demo.onmouseover=function(){clearInterval(MyMar)} 
+  // demo.onmouseout=function(){MyMar=setInterval(Marquee,speed)}  
+
     $(".cgol-list li").on("click","img",function(){
         var cgolTit = $(".cgol-tit01 span").html();
         if ( cgolTit == '0' ){

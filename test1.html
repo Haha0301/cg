@@ -54,6 +54,7 @@ window.onload=function(){
       demo.scrollTop=demo.scrollTop+1;
     } 
   } 
+  console.log(demo.scrollTop+1)
   var MyMar=setInterval(Marquee,speed) 
   demo.onmouseover=function(){clearInterval(MyMar)} 
   demo.onmouseout=function(){MyMar=setInterval(Marquee,speed)} 
